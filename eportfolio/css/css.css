@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+    color: white;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+body{
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.parallax-wrapper {
+    width: 100vw;
+    height 100vh;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+}
+.parallax-wrapper::before {
+    content:"";
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-image: url("../media/trianglewp.jpg");
+    position: absolute;
+    z-index: -1;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    transform: translateZ(-1px) scale(2);
+}
+.content-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    z-index: 2;
+    position: relative;
+}
