@@ -4,10 +4,12 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
 /* @import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700'); */
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
-@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap&subset=cyrillic,cyrillic-ext,korean,latin-ext');
+@import url('https://fonts.googeapis.com/css?family=Questrial&display=swap&subset=cyrillic,cyrillic-ext,korean,latin-ext');
+/* https://img.favpng.com/1/18/23/green-desktop-wallpaper-polygon-geometry-high-definition-television-png-favpng-C8eUnRt2vCLLsVay2SGVGVuic.jpg */
 
 body {
     background-color: #e0ffe2;
+    background-color: white;
     font-family: 'Gudea', sans-serif;
     font-size: 50px;
     margin-left: 33.3vh;
@@ -70,6 +72,9 @@ img.prop {
 
 .nav-bar {
     background-color: #6f8282;
+    background-image: url("../media/triangle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     position: fixed;
     font-size: 0;
     float: left;
@@ -93,7 +98,13 @@ img.prop {
 .nav-btn {
     outline: none;
     color: #262828;
-    background-color: #6f8282;
+    color: rgba(38, 40, 40, 1);
+    color: rgba(255, 255, 255, 1);
+    /* color: rgba(38, 40, 40, 0.1); */
+    /* background-color: #6f8282; */
+    background-color: rgba(111, 130, 130, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
+    /* opacity: 0.1; */
     border: none;
     /*border-top: 1px inset rgba(0, 0, 0, 0.1);*/
     /*border-bottom: 1px inset rgba(0, 0, 0, 0.1);*/
@@ -113,8 +124,15 @@ img.prop {
 
 .page {
     background-color: #e0ffe2;
+    background-color: #262828;
+    background-color: rgba(111, 130, 130, 0.1);
+    background-color: rgba(0, 0, 0, 0.3);
+    /* background-color: #c239b2;
+    background-color: #eda1e4; */
     color: #262828;
+    color: #e0ffe2;
     box-shadow: 0px 2px 20px rgba(38, 40, 40, .5);
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
     /* width: 14.93vw; */
     height: 20vh;
     font-size: 1.3vw;
@@ -123,12 +141,24 @@ img.prop {
 .nav-btn:hover {
     color: #e0ffe2;
     background-color: #262828;
+    background-color: rgba(0, 0, 0, 0.75);
     box-shadow: none;
 }
 
 .body {
    z-index: 0;
+   /* background-image: url("../media/polygreen2.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover; */
    /* padding-left: 15vw; */
+   margin-left: 2vw;
+   display: block;
+   float: right;
+   width: 82vw;
+   /* height: 96vh; */
+   top: 2vh;
+   bottom: 2vh;
 }
 
 a {outline: none;}
