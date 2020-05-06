@@ -8,7 +8,6 @@
 /* https://img.favpng.com/1/18/23/green-desktop-wallpaper-polygon-geometry-high-definition-television-png-favpng-C8eUnRt2vCLLsVay2SGVGVuic.jpg */
 
 body {
-    background-color: #e0ffe2;
     background-color: white;
     font-family: 'Gudea', sans-serif;
     font-size: 50px;
@@ -97,12 +96,9 @@ img.prop {
 
 .nav-btn {
     outline: none;
-    color: #262828;
-    color: rgba(38, 40, 40, 1);
     color: rgba(255, 255, 255, 1);
     /* color: rgba(38, 40, 40, 0.1); */
     /* background-color: #6f8282; */
-    background-color: rgba(111, 130, 130, 0.7);
     background-color: rgba(0, 0, 0, 0.4);
     /* opacity: 0.1; */
     border: none;
@@ -123,15 +119,10 @@ img.prop {
 }
 
 .page {
-    background-color: #e0ffe2;
-    background-color: #262828;
-    background-color: rgba(111, 130, 130, 0.1);
     background-color: rgba(0, 0, 0, 0.3);
     /* background-color: #c239b2;
     background-color: #eda1e4; */
-    color: #262828;
     color: #e0ffe2;
-    box-shadow: 0px 2px 20px rgba(38, 40, 40, .5);
     box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
     /* width: 14.93vw; */
     height: 20vh;
@@ -140,7 +131,6 @@ img.prop {
 
 .nav-btn:hover {
     color: #e0ffe2;
-    background-color: #262828;
     background-color: rgba(0, 0, 0, 0.75);
     box-shadow: none;
 }
@@ -173,10 +163,9 @@ a {outline: none;}
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #6f8282;
+    background: rgb(141, 10, 32);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-    background: #000000;
+    background: rgb(56, 3, 12);
 }
