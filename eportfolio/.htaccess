@@ -20,3 +20,5 @@
 	# Others
 	ExpiresByType media/pdf "access plus 1 month"
 </IfModule>
+
+Options +MultiViews
