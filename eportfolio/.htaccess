@@ -15,7 +15,6 @@
 	ExperiesByType media/mp3 "access plus 1 year"
 
 	# CSS, JavaScript
-	ExpiresByType css/css "access plus 1 minute"
 	ExpiresByType js/javascript "access plus 1 month"
 
 	# Others
