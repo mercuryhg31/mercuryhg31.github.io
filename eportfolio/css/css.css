@@ -518,7 +518,6 @@ h1 {
     text-transform: uppercase;
     text-decoration: underline;
     text-decoration-style: solid;
-    text-decoration-color: var(--rust);
 }
 
 h2 {
