@@ -7,21 +7,15 @@
 @import url('https://fonts.googeapis.com/css?family=Questrial&display=swap&subset=cyrillic,cyrillic-ext,korean,latin-ext');
 /* https://img.favpng.com/1/18/23/green-desktop-wallpaper-polygon-geometry-high-definition-television-png-favpng-C8eUnRt2vCLLsVay2SGVGVuic.jpg */
 
+html{ scroll-behavior: smooth;}
+
 body {
     background-color: white;
     font-family: 'Gudea', sans-serif;
-    font-size: 50px;
-    margin-left: 33.3vh;
+    /* font-size: 50px; */
+    /* margin-left: 33.3vh; */
     color: #262828;
     /* color: #151615; */
-}
-
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 0;
 }
 
 #intro {
@@ -41,7 +35,7 @@ h1 {
 }
 
 #in1 {
-    margin-top: 30vh;
+    margin-top: 26vh;
     animation: introtype1 3s steps(25);
     overflow: hidden;
     white-space: nowrap;
@@ -50,8 +44,8 @@ h1 {
 
 #in2 {
     color: white;
-    animation: introtype2 3s steps(67);
-    animation-delay: 3s;
+    animation: introtype2 4s steps(67);
+    animation-delay: 3.3s;
     animation-fill-mode: forwards;
     overflow: hidden;
     white-space: nowrap;
@@ -60,8 +54,8 @@ h1 {
 
 #in3 {
     color: white;
-    animation: introtype3 3s steps(43);
-    animation-delay: 6s;
+    animation: introtype3 3s steps(45);
+    animation-delay: 7.6s;
     animation-fill-mode: forwards;
     overflow: hidden;
     white-space: nowrap;
@@ -110,14 +104,14 @@ h1 {
         border-right: 2px solid black;
     }
     100% {
-        width: 43ch;
+        width: 45ch;
         color: black;
         border-right: none;
     }
 }
 
 #intro-btn {
-    animation: introbtn 9.5s;
+    animation: introbtn 11.3s;
     /* animation-fill-mode: forwards; */
 }
 
@@ -142,9 +136,8 @@ h1 {
     }
 }
 
-button {
+* {
     outline: none;
-    /* transition-duration: 0.4s; */
 }
 
 .button {
@@ -161,13 +154,33 @@ button {
     color: white;
 }
 
-h2 {
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: var(--rust);
+}
+
+/* h2 {
     text-align: center;
     font-weight: normal;
     width: 60vw;
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
+} */
+h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: #262828;
+    text-transform: lowercase;
+    margin: 0;
 }
 
 h3 {
@@ -227,12 +240,7 @@ img.prop {
     z-index: 2;
 }
 
-/* :root {
-    --nav-width: 100 / 6;
-} */
-
 .nav-btn {
-    outline: none;
     color: rgba(255, 255, 255, 1);
     /* color: rgba(38, 40, 40, 0.1); */
     /* background-color: #6f8282; */
@@ -246,7 +254,7 @@ img.prop {
     font-family: 'Nanum Gothic', sans-serif;
     width: 15vw;
     transition-duration: 0.4s;
-    height: 15.2vh;
+    height: 13.5vh;
     /*transform: rotate(270deg);*/
     /*margin: 0 15vh 0 15vh;*/
     /*margin: 2.5vh 0 2.5vh 0;*/
@@ -262,7 +270,7 @@ img.prop {
     color: #e0ffe2;
     box-shadow: 0px 2px 20px rgba(0, 0, 0, .5);
     /* width: 14.93vw; */
-    height: 20vh;
+    height: 15vh;
     font-size: 1.3vw;
 }
 
@@ -288,7 +296,28 @@ img.prop {
    bottom: 2vh;
 }
 
-a {outline: none;}
+.image-ctn {
+    background-image: url("../media/triangle.jpg");
+    background-size: cover;
+    position: relative;
+    height: 50px;
+}
+
+.h1 {
+    background-color: white;
+    color: black;
+    font-size: 10vw; 
+    /* font-weight: bold; */
+    margin: 0 auto;
+    padding: 10px;
+    width: 3vw;
+    text-align: center;
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+}
 
 /* SCROLLBAR */
 ::-webkit-scrollbar {
@@ -300,9 +329,18 @@ a {outline: none;}
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(141, 10, 32);
+    background: var(--rust);
 }
 
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(56, 3, 12);
 }
+
+ :root {
+     --rust: rgb(141, 10, 32);
+     --gold: rgb(213, 159, 35);
+     --forest: rgb(60, 105, 53);
+     --bog: rgb(111, 106, 42);
+     --orange: rgb(210, 110, 36);
+     --night: rgb(1, 35, 20);
+ }
