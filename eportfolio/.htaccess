@@ -6,9 +6,7 @@
 	ExpiresByType media/jpg "access plus 1 year"
 	ExpiresByType media/gif "access plus 1 year"
 	ExpiresByType media/png "access plus 1 year"
-	ExpiresByType media/webp "access plus 1 year"
-	ExpiresByType media/svg+xml "access plus 1 year"
-	ExpiresByType media/x-icon "access plus 1 year"
+	ExpiresByType media/svg "access plus 1 year"
 	ExpiresByType icon/ico "access plus 1 year"
 	ExpiresByType icon/png "access plus 1 year"
 
@@ -18,10 +16,11 @@
 	ExperiesByType media/mp3 "access plus 1 year"
 
 	# CSS, JavaScript
-	ExpiresByType js/javascript "access plus 1 month"
+	ExpiresByType js/js "access plus 1 month"
 
 	# Others
 	ExpiresByType media/pdf "access plus 1 month"
+	ExpiresByType pdf "access plus 1 month"
 </IfModule>
 
 Options +MultiViews
