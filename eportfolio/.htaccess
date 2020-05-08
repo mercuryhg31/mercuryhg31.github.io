@@ -3,11 +3,14 @@
 
 	# Images
 	ExpiresByType media/jpeg "access plus 1 year"
+	ExpiresByType media/jpg "access plus 1 year"
 	ExpiresByType media/gif "access plus 1 year"
 	ExpiresByType media/png "access plus 1 year"
 	ExpiresByType media/webp "access plus 1 year"
 	ExpiresByType media/svg+xml "access plus 1 year"
 	ExpiresByType media/x-icon "access plus 1 year"
+	ExpiresByType icon/ico "access plus 1 year"
+	ExpiresByType icon/png "access plus 1 year"
 
 	# Video
 	ExpiresByType media/mp4 "access plus 1 year"

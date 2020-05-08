@@ -534,12 +534,6 @@ h3 {
     font-size: 20px;
 }
 
-img {
-    display: block;
-    margin-left: 25vw;
-    width: 30vw;
-}
-
 img.prop {
     width: 60vw;
     margin-left: 11vw;
@@ -656,6 +650,7 @@ img.prop {
 /* SCROLLBAR */
 ::-webkit-scrollbar {
     width: 10px;
+    margin: 1vh 1vw 1vh 1vw;
 }
 
 ::-webkit-scrollbar-track {
