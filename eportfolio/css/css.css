@@ -650,7 +650,6 @@ img.prop {
 /* SCROLLBAR */
 ::-webkit-scrollbar {
     width: 10px;
-    margin: 1vh 1vw 1vh 1vw;
 }
 
 ::-webkit-scrollbar-track {
