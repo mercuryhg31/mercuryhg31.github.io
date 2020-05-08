@@ -382,6 +382,11 @@ body {
     color: #262828;
 }
 
+p a {
+    color: var(--sunset);
+    text-decoration: none;
+}
+
 .intro {
     font-family: monospace;
     font-size: 2vw;
