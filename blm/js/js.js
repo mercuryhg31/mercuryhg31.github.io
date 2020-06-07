@@ -5,7 +5,6 @@ window.onload = function(event) {
 // create youtube player
 var player;
 var id = document.getElementById("id").textContent;
-id = "jZRD2EAViUc";
 function onYouTubePlayerAPIReady() {
 		player = new YT.Player('player', {
 		height: '315',
