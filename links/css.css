@@ -1,17 +1,15 @@
-body {
+body, button {
 	font-family: monospace;
 	text-transform: uppercase;
-	text-size-adjust: 80%;
+	font-size: 40px;
 }
 
 div {
 	/* width: 60%; */
+	vertical-align: middle;
 }
 
 button {
-	font-family: monospace;
-	text-transform: uppercase;
-	text-size-adjust: 80%;
 	background-color: white;
 	border: solid black;
 	transition-duration: 0.4s;
