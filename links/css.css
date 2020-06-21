@@ -1,6 +1,7 @@
 body {
 	font-family: monospace;
 	text-transform: uppercase;
+	text-size-adjust: 80%;
 }
 
 div {
