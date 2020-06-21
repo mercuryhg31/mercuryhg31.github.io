@@ -11,6 +11,7 @@ div {
 button {
 	font-family: monospace;
 	text-transform: uppercase;
+	text-size-adjust: 80%;
 	background-color: white;
 	border: solid black;
 	transition-duration: 0.4s;
