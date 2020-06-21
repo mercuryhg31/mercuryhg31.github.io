@@ -1,0 +1,21 @@
+body {
+	font-family: monospace;
+	text-transform: uppercase;
+}
+
+div {
+	width: 60%;
+}
+
+button {
+	font-family: monospace;
+	text-transform: uppercase;
+	background-color: white;
+	border: solid black;
+	transition-duration: 0.4s;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+}
